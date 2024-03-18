@@ -8,16 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var task = NetworkManager()
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(task.PUID)
+        }.onAppear {
+            task.fetchPUIDs(completionHandler: {_ in })
         }
         .padding()
     }
 }
+   
 
 #Preview {
     ContentView()

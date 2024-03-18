@@ -14,6 +14,7 @@
 		666AEB9D2B33922D0073EDA4 /* Riot_API_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AEB9C2B33922D0073EDA4 /* Riot_API_ProjectTests.swift */; };
 		666AEBA72B33922D0073EDA4 /* Riot_API_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AEBA62B33922D0073EDA4 /* Riot_API_ProjectUITests.swift */; };
 		666AEBA92B33922D0073EDA4 /* Riot_API_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AEBA82B33922D0073EDA4 /* Riot_API_ProjectUITestsLaunchTests.swift */; };
+		666AEBB62B3394200073EDA4 /* api-calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AEBB52B3394200073EDA4 /* api-calls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		666AEBA22B33922D0073EDA4 /* Riot-API-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riot-API-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		666AEBA62B33922D0073EDA4 /* Riot_API_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riot_API_ProjectUITests.swift; sourceTree = "<group>"; };
 		666AEBA82B33922D0073EDA4 /* Riot_API_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riot_API_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		666AEBB52B3394200073EDA4 /* api-calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "api-calls.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				666AEB8B2B33922A0073EDA4 /* Riot_API_ProjectApp.swift */,
 				666AEB8D2B33922A0073EDA4 /* ContentView.swift */,
+				666AEBB52B3394200073EDA4 /* api-calls.swift */,
 				666AEB8F2B33922C0073EDA4 /* Assets.xcassets */,
 				666AEB912B33922C0073EDA4 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				666AEB8E2B33922A0073EDA4 /* ContentView.swift in Sources */,
+				666AEBB62B3394200073EDA4 /* api-calls.swift in Sources */,
 				666AEB8C2B33922A0073EDA4 /* Riot_API_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
